@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>로그인</title>
+
+    <!-- Main CSS -->
+    <link type="text/css" href="./css/spaces.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <main>
+
+        <div class="preloader bg-dark flex-column justify-content-center align-items-center" style="display: none;">
+            <div class="position-relative">
+                <img src="../assets/img/brand/light-without-letter.svg" alt="Logo loader">
+                <img src="../assets/img/brand/letter.svg" class="rotate-letter" alt="Letter loader">
+            </div>
+        </div>
+
+        <!-- Section -->
+        <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark py-5 py-lg-0" data-background="https://postfiles.pstatic.net/MjAyMTA0MjBfMjky/MDAxNjE4OTAzOTAzMjk4._EzM6ZPvEEP9BDYjnKZaSCr-LvH23qgj_Kxh4lEVtkcg.mg8FMPSW8U5GYKmP6P4yhbOrn6vhqB4W2vU6oMgcdsgg.JPEG.koti10/GettyImages-1211180436.jpg?type=w773"
+            style="background-image: url(https://postfiles.pstatic.net/MjAyMTA0MjBfMjky/MDAxNjE4OTAzOTAzMjk4._EzM6ZPvEEP9BDYjnKZaSCr-LvH23qgj_Kxh4lEVtkcg.mg8FMPSW8U5GYKmP6P4yhbOrn6vhqB4W2vU6oMgcdsgg.JPEG.koti10/GettyImages-1211180436.jpg?type=w773);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="text-center text-md-center mb-5 mt-md-0 text-white">
+                            <h1 class="mb-0 h3">로그인</h1>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                            <form action="#">
+                                <!-- Form -->
+                                <div class="form-group">
+                                    <label for="email">Your email</label>
+                                    <div class="input-group mb-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <span class="fas fa-envelope">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <input class="form-control" id="email" placeholder="example@company.com" type="text" aria-label="email address">
+                                    </div>
+                                </div>
+                                <!-- End of Form -->
+                                <div class="form-group">
+                                    <!-- Form -->
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <span class="fas fa-unlock-alt">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-unlock-fill" viewBox="0 0 16 16">
+                                                            <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z"/>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <input class="form-control" id="password" placeholder="Password" type="password" aria-label="Password" required="">
+                                        </div>
+                                    </div>
+                                    <!-- End of Form -->
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="remember">
+                                            <label class="form-check-label" for="remember">
+                                              이메일 기억하기
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-block btn-primary">로그인</button>
+                            </form>
+                            <div class="mt-3 mb-4 text-center">
+                                <span class="font-weight-normal">or</span>
+                            </div>
+                            <button type="submit" class="btn btn-block btn-primary" style="background-color: #f9e000; border-color: #f9e000; color: #000000;">카카오톡으로 로그인</button>
+
+                            <div class="d-block d-sm-flex justify-content-center align-items-center mt-4">
+                                <span class="font-weight-normal">
+                                    회원이신가요?
+                                    <a href="./sign-up.html" class="font-weight-bold"> 회원가입 하러가기</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
