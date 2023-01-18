@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -87,20 +87,51 @@
                     </form>
                 </div>
                 <div class="col-12 col-md-7 order-lg-2 d-none d-md-block">
-                    <!-- Image --> <img src="img/main.png" class="img-fluid" alt="Forest Illustration">
+                    <!-- Image --> <img src="img/main.png" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-header">
+    <section class="section-header" style="padding-top: 100px">
         <div class="container mt-n7">
            <div class="card border-light p-md-2">
                <div class="card-body p-4">
                    <h1 style="text-align:center">나의 알림</h1>
-                   <button class="btn btn-lg btn-primary btn-block animate-up-2" type="submit" >+</button>
+
+                   <div class="col-12 col-sm-10 col-md-6 col-lg-12">
+
+                       <div class="card border-light mb-4">
+                               <div class="col-12 col-lg-6 col-xl-8" style="padding-top: 20px">
+                                   <div class="card-body py-lg-0">
+                                       <a href="../single-space.html"><h2 class="h5">출근</h2></a>
+                                       <span>임학역 인천1호선 </span><img src="/img/arrow.png" width="13" height="13"><span> 작전역 인천1호선</span><p>
+                                       <span> AM 10 : 30 ~ 11 : 30</span><p>
+                                       <span>버스 : </span>
+                                        <span>66, 30, 88, 584</span>
+
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card border-light mb-4">
+                               <div class="col-12 col-lg-6 col-xl-8" style="padding-top: 20px">
+                                   <div class="card-body py-lg-0">
+                                       <a href="../single-space.html"><h2 class="h5">퇴근</h2></a>
+                                       <span>작전역 인천1호선 </span><img src="/img/arrow.png" width="13" height="13"><span> 임학역 인천1호선</span><p>
+                                       <span> PM 7 : 50 ~ 8 : 00</span><p>
+                                       <span>버스 : </span>
+                                        <span>66, 30, 88, 584</span>
+
+                               </div>
+                           </div>
+                       </div>
+                       <a href="../submit-item.html" class="btn btn-outline-secondary btn-block mb-4 py-4">
+                           <span class="mr-2">
+                               <span class="fas fa-plus"></span>
+                           </span> New Alarm
+                       </a>
+                   </div>
 
 
-                    </div>
                </div>
            </div>
         </div>
