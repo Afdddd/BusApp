@@ -6,18 +6,21 @@
 
     <!-- Main CSS -->
     <link type="text/css" href="./css/spaces.css" rel="stylesheet">
+    <script src="./js/all.min.js"></script>
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
 </head>
-<body style="">
+<body>
 
 <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-theme-primary navbar-expand-lg headroom py-lg-3 px-lg-6 navbar-light navbar-transparent">
         <div class="container">
-            <a class="navbar-brand @@logo_classes row" href="../index.html">
-                <img class="navbar-brand-dark common" src="../assets/img/brand/light.svg" height="35" alt="Logo light">
-                <img class="navbar-brand-light common" src="../assets/img/brand/dark.svg" height="35" alt="Logo dark">
-
+            <a class="navbar-brand @@logo_classes d-md-flex" href="./main.html">
+                <img class="navbar-brand-dark common" src="./img/bus.png" height="35" alt="Logo light">
+                <img class="navbar-brand-light common" src="./img/bus.png" height="35" alt="Logo dark">
+                
+                <h4 style="color: #ffffff;">버스 알리미</h4>
             </a>
-            <h4>버스 알리미</h4>
             <div class="navbar-collapse collapse" id="navbar_global">
                 <div class="navbar-collapse-header">
                     <div class="row">
@@ -30,8 +33,8 @@
 
             </div>
             <div class="d-none d-lg-block @@cta_button_classes">
-                <button class="btn mb-2 mr-2 btn-info" type="button">회원가입</button>
-                <button class="btn mb-2 mr-2 btn-info" type="button">로그인</button>
+                <a class="btn mb-2 mr-2 btn-info" style="color: #ffffff;" href="./signUp.html">회원가입</a>
+                <a class="btn mb-2 mr-2 btn-info" style="color: #ffffff;" href="./signIn.html">로그인</a>
             </div>
             <div class="d-flex d-lg-none align-items-center">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -62,27 +65,17 @@
                         <div class="col-12 mb-3 mb-lg-4">
                             <div class="form-group form-group-lg mb-0">
                                 <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text"><span class="fas fa-map-marker-alt"></span>출발</span>
-                                    </div>
-                                    <input id="search-location-1" type="text" class="form-control autocomplete" placeholder="search" required="">
+                                    
+                                    <input id="searchKey" type="text" class="form-control autocomplete" placeholder="search" required="">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-12 mb-3 mb-lg-4">
-                            <div class="form-group form-group-lg mb-0">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text"><span class="fas fa-map-marker-alt"></span>도착</span>
-                                    </div>
-                                    <input id="search-location-2" type="text" class="form-control autocomplete" placeholder="search" required="">
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <div class="col-12 mt-4">
-                            <button class="btn btn-lg btn-primary btn-block animate-up-2" type="submit">Find a bus</button>
+                            
+                            <button class="btn btn-lg btn-primary btn-block animate-up-2" type="submit"><i class="fas fa-search"></i>&nbsp;&nbsp;&nbsp;Find a bus</button>
                         </div>
                     </form>
                 </div>
@@ -124,11 +117,14 @@
                                </div>
                            </div>
                        </div>
-                       <a href="../submit-item.html" class="btn btn-outline-secondary btn-block mb-4 py-4">
+
+                       <!-- 추후 알람 추가 탭 상의 후 결정 -->
+
+                       <!-- <a href="../submit-item.html" class="btn btn-outline-secondary btn-block mb-4 py-4">
                            <span class="mr-2">
                                <span class="fas fa-plus"></span>
                            </span> New Alarm
-                       </a>
+                       </a> -->
                    </div>
 
 
