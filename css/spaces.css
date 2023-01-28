@@ -741,6 +741,7 @@ pre code {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+
 }
 
 .col {
@@ -12501,7 +12502,7 @@ button.bg-github:focus {
     }
 
     .flex-xl-nowrap {
-        flex-wrap: nowrap !important;
+        flex-wrap: nocollapsewrap !important;
     }
 
     .flex-xl-wrap-reverse {
@@ -12986,7 +12987,7 @@ button.bg-github:focus {
 
 .mt-5,
 .my-5 {
-    margin-top: 3rem !important;
+    margin-top: 1rem !important;
 }
 
 .mr-5,
@@ -30308,7 +30309,7 @@ button.section-github:focus {
         background: #283448;
     }
 
-    .navbar-collapse .navbar-collapse-header {
+    .navbar- .navbar-collapse-header {
         display: block;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
@@ -30946,7 +30947,7 @@ button.section-github:focus {
     display: flex;
     -moz-justify-content: space-between;
     -ms-justify-content: space-between;
-    justify-content: space-between;
+    justify-content: flex-start;
     -ms-flex-pack: space-between;
     -moz-align-items: center;
     -ms-align-items: center;
@@ -40250,7 +40251,7 @@ blockquote {
     height: 16px;
     margin-top: 0.425rem;
     margin-left: -0.5rem;
-    border: 0.0625rem solid #edf0f7;
+    border: 0.0625rem solid #1A0000;
     border-radius: 50%;
 }
 
@@ -40263,7 +40264,7 @@ blockquote {
     width: 0.0625rem;
     margin-top: 1.875rem;
     margin-left: -0.0625rem;
-    background-color: #edf0f7;
+    background-color: #1A0000;
 }
 
 .timeline.timeline-one .timeline-item:nth-child(2n+1) {
