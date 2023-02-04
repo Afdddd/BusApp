@@ -40225,10 +40225,11 @@ blockquote {
 .timeline.timeline-one .timeline-item {
     position: relative;
     width: 50%;
-    margin-left: 50%;
+    margin-left: 0;
     padding-bottom: 2.75rem;
-    padding-left: 2.75rem;
-    text-align: left;
+    padding-right: 2.75rem;
+    padding-left: 0;
+    text-align: right;
 }
 
 @media (max-width: 767.98px) {
@@ -40246,26 +40247,28 @@ blockquote {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 16px;
     height: 16px;
     margin-top: 0.425rem;
-    margin-left: -0.5rem;
+    margin-right: -0.5rem;
     border: 0.0625rem solid #1A0000;
     border-radius: 50%;
 }
+
 
 .timeline.timeline-one .timeline-item:after {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     bottom: -0.1875rem;
     width: 0.0625rem;
     margin-top: 1.875rem;
     margin-left: -0.0625rem;
     background-color: #1A0000;
 }
+
 
 .timeline.timeline-one .timeline-item:nth-child(2n+1) {
     margin-left: 0;
@@ -40289,8 +40292,8 @@ blockquote {
 
 @media (max-width: 767.98px) {
     .timeline.timeline-one .timeline-item:nth-child(2n+1):before, .timeline.timeline-one .timeline-item:nth-child(2n+1):after {
-        right: auto;
-        left: 0;
+        right: 0;
+        left: auto;
     }
 }
 
