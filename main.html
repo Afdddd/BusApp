@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,196 +8,206 @@
     <!-- Main CSS -->
     <link type="text/css" href="./css/spaces.css" rel="stylesheet">
     <script src="./js/all.min.js"></script>
-        <script src="./js/jquery.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-theme-primary navbar-expand-lg headroom py-lg-3 px-lg-6 navbar-light navbar-transparent">
-        <div class="container">
-            <a class="navbar-brand @@logo_classes d-md-flex" href="./main.html">
-                <img class="navbar-brand-dark common" src="./img/bus.png" height="35" alt="Logo light">
-                <img class="navbar-brand-light common" src="./img/bus.png" height="35" alt="Logo dark">
-                
-                <h4 style="color: #ffffff;">버스 알리미</h4>
-            </a>
-            <div class="navbar-collapse collapse" id="navbar_global">
-                <div class="navbar-collapse-header">
-                    <div class="row">
+    <header class="header-global">
+        <nav id="navbar-main" class="navbar navbar-main navbar-theme-primary navbar-expand-lg headroom py-lg-3 px-lg-6 navbar-light navbar-transparent">
+            <div class="container">
+                <a class="navbar-brand @@logo_classes d-md-flex" href="./main.html">
+                    <img class="navbar-brand-dark common" src="./img/bus.png" height="35" alt="Logo light">
+                    <img class="navbar-brand-light common" src="./img/bus.png" height="35" alt="Logo dark">
 
-                        <div class="col-6 collapse-close">
-                            <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"></a>
-                        </div>
-                    </div>
-                </div>
+                    <h4 style="color: #ffffff;">버스 알리미</h4>
+                </a>
+                <div class="navbar-collapse collapse" id="navbar_global">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
 
-            </div>
-            <div class="d-none d-lg-block @@cta_button_classes">
-                <a class="btn mb-2 mr-2 btn-info" style="color: #ffffff;" href="./signUp.html">회원가입</a>
-                <a class="btn mb-2 mr-2 btn-info" style="color: #ffffff;" href="./signIn.html">로그인</a>
-            </div>
-            <div class="d-flex d-lg-none align-items-center">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            </div>
-        </div>
-    </nav>
-</header>
-
-<!-- main-->
-<main>
-
-    <div class="preloader bg-dark flex-column justify-content-center align-items-center" style="display: none;">
-        <div class="position-relative">
-            <img src="../assets/img/brand/light-without-letter.svg" alt="Logo loader">
-            <img src="../assets/img/brand/letter.svg" class="rotate-letter" alt="Letter loader">
-        </div>
-    </div>
-    <section class="section-header">
-
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-md-5 order-lg-1">
-                    <h1 class="display-3 lh-100 font-weight-bold mb-0">버스 알람 서비스</h1>
-                    <p class="lead my-4">
-                        출/퇴근 경로와 출/퇴근 시간을 확인하고 알람을 받아보세요.
-                    </p>
-                    <form autocomplete="off" class="row" method="get" action="./all-spaces.html">
-                        <div class="col-12 mb-3 mb-lg-4">
-                            <div class="form-group form-group-lg mb-0">
-                                <div class="input-group">
-                                    
-                                    <input id="searchKey" type="text" class="form-control autocomplete" placeholder="search" required="">
-                                </div>
+                            <div class="col-6 collapse-close">
+                                <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"></a>
                             </div>
                         </div>
+                    </div>
 
-                        
-
-                        <div class="col-12 mt-4">
-                            
-                            <button class="btn btn-lg btn-primary btn-block animate-up-2" type="submit"><i class="fas fa-search"></i>&nbsp;&nbsp;&nbsp;Find a bus</button>
-                        </div>
-                    </form>
                 </div>
-                <div class="col-12 col-md-7 order-lg-2 d-none d-md-block">
-                    <!-- Image --> <img src="img/main.png" class="img-fluid">
+                <div class="d-none d-lg-block @@cta_button_classes">
+                    <a class="btn mb-2 mr-2 btn-info" style="color: #ffffff;" href="./signUp.html">회원가입</a>
+                    <a class="btn mb-2 mr-2 btn-info" style="color: #ffffff;" href="./signIn.html">로그인</a>
+                </div>
+                <div class="d-flex d-lg-none align-items-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 </div>
             </div>
+        </nav>
+    </header>
+
+    <!-- main-->
+    <main>
+
+        <div class="preloader bg-dark flex-column justify-content-center align-items-center" style="display: none;">
+            <div class="position-relative">
+                <img src="../assets/img/brand/light-without-letter.svg" alt="Logo loader">
+                <img src="../assets/img/brand/letter.svg" class="rotate-letter" alt="Letter loader">
+            </div>
         </div>
-    </section>
-    <section class="section-header" style="padding-top: 100px">
-        <div class="container mt-n7">
-           <div class="card border-light p-md-2">
-               <div class="card-body p-4">
-                   <h1 style="text-align:center">나의 알림</h1>
+        <section class="section-header">
 
-                   <div class="col-12 col-sm-10 col-md-6 col-lg-12">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-5 order-lg-1">
+                        <h1 class="display-3 lh-100 font-weight-bold mb-0">버스 알람 서비스</h1>
+                        <p class="lead my-4">
+                            출/퇴근 경로와 출/퇴근 시간을 확인하고 알람을 받아보세요.
+                        </p>
+                        <form autocomplete="off" class="row" method="get" action="./all-spaces.html">
+                            <div class="col-12 mb-3 mb-lg-4">
+                                <div class="form-group form-group-lg mb-0">
+                                    <div class="input-group">
 
-                       <div class="card border-light mb-4">
-                               <div class="col-12 col-lg-6 col-xl-8" style="padding-top: 20px">
-                                   <div class="card-body py-lg-0">
-                                       <a href="../single-space.html"><h2 class="h5">출근</h2></a>
-                                       <span>임학역 인천1호선 </span><img src="/img/arrow.png" width="13" height="13"><span> 작전역 인천1호선</span><p>
-                                       <span> AM 10 : 30 ~ 11 : 30</span><p>
-                                       <span>버스 : </span>
-                                        <span>66, 30, 88, 584</span>
+                                        <input id="searchKey" type="text" class="form-control autocomplete" placeholder="search" required="">
+                                    </div>
+                                </div>
+                            </div>
 
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card border-light mb-4">
-                               <div class="col-12 col-lg-6 col-xl-8" style="padding-top: 20px">
-                                   <div class="card-body py-lg-0">
-                                       <a href="../single-space.html"><h2 class="h5">퇴근</h2></a>
-                                       <span>작전역 인천1호선 </span><img src="/img/arrow.png" width="13" height="13"><span> 임학역 인천1호선</span><p>
-                                       <span> PM 7 : 50 ~ 8 : 00</span><p>
-                                       <span>버스 : </span>
-                                        <span>66, 30, 88, 584</span>
 
-                               </div>
-                           </div>
-                       </div>
 
-                       <!-- 추후 알람 추가 탭 상의 후 결정 -->
+                            <div class="col-12 mt-4">
 
-                       <a href="../submit-item.html" class="btn btn-outline-secondary btn-block mb-4 py-4">
-                           <span class="mr-2">
+                                <button class="btn btn-lg btn-primary btn-block animate-up-2" type="submit"><i class="fas fa-search"></i>&nbsp;&nbsp;&nbsp;Find a bus</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-7 order-lg-2 d-none d-md-block">
+                        <!-- Image --><img src="img/main.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-header" style="padding-top: 100px">
+            <div class="container mt-n7">
+                <div class="card border-light p-md-2">
+                    <div class="card-body p-4">
+                        <h1 style="text-align:center">나의 알림</h1>
+
+                        <div class="col-12 col-sm-10 col-md-6 col-lg-12">
+
+                            <div class="card border-light mb-4">
+                                <div class="col-12 col-lg-6 col-xl-8" style="padding-top: 20px">
+                                    <div class="card-body py-lg-0">
+                                        <a href="../single-space.html">
+                                            <h2 class="h5">출근</h2>
+                                        </a>
+                                        <span>임학역 인천1호선 </span><img src="/img/arrow.png" width="13" height="13"><span> 작전역 인천1호선</span>
+                                        <p>
+                                            <span> AM 10 : 30 ~ 11 : 30</span>
+                                            <p>
+                                                <span>버스 : </span>
+                                                <span>66, 30, 88, 584</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-light mb-4">
+                                <div class="col-12 col-lg-6 col-xl-8" style="padding-top: 20px">
+                                    <div class="card-body py-lg-0">
+                                        <a href="../single-space.html">
+                                            <h2 class="h5">퇴근</h2>
+                                        </a>
+                                        <span>작전역 인천1호선 </span><img src="/img/arrow.png" width="13" height="13"><span> 임학역 인천1호선</span>
+                                        <p>
+                                            <span> PM 7 : 50 ~ 8 : 00</span>
+                                            <p>
+                                                <span>버스 : </span>
+                                                <span>66, 30, 88, 584</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 추후 알람 추가 탭 상의 후 결정 -->
+
+                            <a href="../submit-item.html" class="btn btn-outline-secondary btn-block mb-4 py-4">
+                                <span class="mr-2">
                                <span class="fas fa-plus"></span>
-                           </span> New Alarm
-                       </a>
-                   </div>
+                                </span> New Alarm
+                            </a>
+                        </div>
 
 
-               </div>
-           </div>
-        </div>
-    </section>
-
-</main>
-
-
-
-<!--footer-->
-<footer class="footer py-6 bg-primary text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-3 mb-3 mb-xl-0">
-                <img src="../assets/img/brand/light.svg" height="30" class="mb-3" alt="Spaces logo">
-                <p>Premium Bootstrap Directory Listing Template</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-6 col-xl-2 mb-5 mb-xl-0">
-                <span class="h5">Themesberg</span>
-                <ul class="footer-links mt-2">
-                    <li><a target="_blank" href="https://themesberg.com/blog">Blog</a></li>
-                    <li><a target="_blank" href="https://themesberg.com/products">Products</a></li>
-                    <li><a target="_blank" href="https://themesberg.com/about">About Us</a></li>
-                    <li><a target="_blank" href="https://themesberg.com/contact">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-xl-3 mb-5 mb-xl-0">
-                <span class="h5">Other</span>
-                <ul class="footer-links mt-2">
-                    <li><a href="https://themesberg.com/docs/spaces/getting-started/overview/">Documentation <span class="badge badge-sm badge-secondary ml-2">v3.0</span></a></li>
-                    <li><a href="https://themesberg.com/docs/spaces/getting-started/changelog/">Changelog</a></li>
-                    <li><a target="_blank" href="https://themesberg.com/contact">Support</a></li>
-                    <li><a target="_blank" href="https://themesberg.com/licensing">License</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-xl-4 mb-5 mb-xl-0">
-                <span class="h5">Get the app</span>
-                <p class="text-muted font-small mt-2">It's easy. Just select your device.</p>
-                <a href="#" class="btn btn-sm btn-white mb-xl-0 mr-2">
-                    <span class="d-flex align-items-center">
+        </section>
+
+    </main>
+
+
+
+    <!--footer-->
+    <footer class="footer py-6 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 mb-3 mb-xl-0">
+                    <img src="../assets/img/brand/light.svg" height="30" class="mb-3" alt="Spaces logo">
+                    <p>Premium Bootstrap Directory Listing Template</p>
+                </div>
+                <div class="col-6 col-xl-2 mb-5 mb-xl-0">
+                    <span class="h5">Themesberg</span>
+                    <ul class="footer-links mt-2">
+                        <li><a target="_blank" href="https://themesberg.com/blog">Blog</a></li>
+                        <li><a target="_blank" href="https://themesberg.com/products">Products</a></li>
+                        <li><a target="_blank" href="https://themesberg.com/about">About Us</a></li>
+                        <li><a target="_blank" href="https://themesberg.com/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-xl-3 mb-5 mb-xl-0">
+                    <span class="h5">Other</span>
+                    <ul class="footer-links mt-2">
+                        <li><a href="https://themesberg.com/docs/spaces/getting-started/overview/">Documentation <span class="badge badge-sm badge-secondary ml-2">v3.0</span></a></li>
+                        <li><a href="https://themesberg.com/docs/spaces/getting-started/changelog/">Changelog</a></li>
+                        <li><a target="_blank" href="https://themesberg.com/contact">Support</a></li>
+                        <li><a target="_blank" href="https://themesberg.com/licensing">License</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-xl-4 mb-5 mb-xl-0">
+                    <span class="h5">Get the app</span>
+                    <p class="text-muted font-small mt-2">It's easy. Just select your device.</p>
+                    <a href="#" class="btn btn-sm btn-white mb-xl-0 mr-2">
+                        <span class="d-flex align-items-center">
                         <span class="icon icon-brand mr-2"><span class="fab fa-apple"></span></span>
                         <span class="d-inline-block text-left">
                             <small class="font-weight-normal d-block">Available on</small> App Store
                         </span>
-                    </span>
-                </a>
-                <a href="#" class="btn btn-sm btn-white">
-                    <span class="icon icon-brand mr-2"><span class="fab fa-google-play"></span></span>
-                    <span class="d-inline-block text-left">
+                        </span>
+                    </a>
+                    <a href="#" class="btn btn-sm btn-white">
+                        <span class="icon icon-brand mr-2"><span class="fab fa-google-play"></span></span>
+                        <span class="d-inline-block text-left">
                         <small class="font-weight-normal d-block">Available on</small> Google Play
                     </span>
-                </a>
+                    </a>
+                </div>
             </div>
-        </div>
-        <hr class="my-3 my-lg-5">
-        <div class="row">
-            <div class="col mb-md-0">
-                <a href="https://themesberg.com" target="_blank" class="d-flex justify-content-center">
-                    <img src="../assets/img/themesberg.svg" height="25" class="mb-3" alt="Themesberg Logo">
-                </a>
-                <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
-                    <p class="font-weight-normal font-small mb-0">Copyright © Themesberg
-                        <span class="current-year">2023</span>. All rights reserved.</p>
+            <hr class="my-3 my-lg-5">
+            <div class="row">
+                <div class="col mb-md-0">
+                    <a href="https://themesberg.com" target="_blank" class="d-flex justify-content-center">
+                        <img src="../assets/img/themesberg.svg" height="25" class="mb-3" alt="Themesberg Logo">
+                    </a>
+                    <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                        <p class="font-weight-normal font-small mb-0">Copyright © Themesberg
+                            <span class="current-year">2023</span>. All rights reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
+
 </html>
