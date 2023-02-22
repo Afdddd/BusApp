@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bus App Front.iml" filepath="$PROJECT_DIR$/Bus App Front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busApp/busApp.iml" filepath="$PROJECT_DIR$/busApp/busApp.iml" />
     </modules>
   </component>
 </project>

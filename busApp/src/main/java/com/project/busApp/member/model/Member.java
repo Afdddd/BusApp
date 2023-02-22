@@ -3,13 +3,13 @@ package com.project.busApp.member.model;
 public class Member {
 	private String id;
 	private String pw;
-	private String eMail;
+	private String name;
 
-	public Member(String id, String pw, String eMail) {
+	public Member(String id, String pw, String name) {
 		super();
 		this.id = id;
 		this.pw = pw;
-		this.eMail = eMail;
+		this.name = name;
 	}
 
 	public Member() {
@@ -33,17 +33,17 @@ public class Member {
 		this.pw = pw;
 	}
 
-	public String geteMail() {
-		return eMail;
+	public String getName() {
+		return name;
 	}
 
-	public void seteMail(String eMail) {
-		this.eMail = eMail;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	@Override
 	public String toString() {
-		return "Member [id=" + id + ", pw=" + pw + ", eMail=" + eMail + "]";
+		return "Member [id=" + id + ", pw=" + pw + ", name=" + name + "]";
 	}
 
 }
